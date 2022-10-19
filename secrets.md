@@ -3,7 +3,7 @@
 ## Load environment variables from .env
 
 ```
-export $(cat .env | xargs)
+export $(grep -v '^#' .env | xargs)
 ```
 
 ## Diff env files
