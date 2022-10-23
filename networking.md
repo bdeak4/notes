@@ -1,5 +1,19 @@
 # networking
 
+## device
+
+### find tcp ports device is listening on
+
+```
+# ss --listen --tcp --process --numeric
+```
+
+or more compact version:
+
+```
+# ss -ltpn
+```
+
 ## local
 
 ### find out which servers and devices are up and running
