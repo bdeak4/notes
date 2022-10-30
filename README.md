@@ -1,1 +1,1 @@
-# sysadmin-notes
+# notes
