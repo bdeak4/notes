@@ -50,6 +50,6 @@ diff <(cat .env.example | sed 's/=.*//g' | grep '^[A-Z]' | sort) <(cat .env | se
 
 ### Force password auth
 
-```sh
+```
 $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<host>
 ```
