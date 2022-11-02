@@ -1,5 +1,18 @@
 # writing scripts
 
+## examples
+
+### parse cli arguments
+
+```sh
+while test $# -gt 0; do  
+  case "$1" in  
+    -f|--flag) shift; FLAG="$1";;  
+  esac  
+  shift  
+done
+```
+
 ## script naming
 
 without `.sh` extension when script is in some directory that is in `$PATH`
