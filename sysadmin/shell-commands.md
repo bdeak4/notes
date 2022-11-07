@@ -56,6 +56,12 @@ diff <(cat .env.example | sed 's/=.*//g' | grep '^[A-Z]' | sort) <(cat .env | se
 $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<host>
 ```
 
+## cron jobs
+
+- [Crontab guru](https://crontab.guru/) `tool`
+
+### 
+
 ## multimedia
 
 ### reduce video file size
