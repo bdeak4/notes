@@ -28,3 +28,21 @@ $ git log -G "^# TODO" -p --all
 ```
 $ git log --grep "query" --all
 ```
+
+### leaderboards
+
+```
+$ git shortlog -sn --all --no-merges
+```
+
+### today's work
+
+```
+$ git log --since=00:00:00 --all --no-merges --oneline --author=<email>
+```
+
+### complex logs
+
+```
+$ git log --graph --all --decorate --stat --date=iso
+```

@@ -50,6 +50,10 @@ diff <(cat .env.example | sed 's/=.*//g' | grep '^[A-Z]' | sort) <(cat .env | se
 
 - [A Visual Guide to SSH Tunnels](https://iximiuz.com/en/posts/ssh-tunnels/) `article`
 
+### kill session
+
+"Enter" then ~ then . will kill a hung SSH connection, instead of having to close the terminal tab. 
+
 ### Force password auth
 
 ```
