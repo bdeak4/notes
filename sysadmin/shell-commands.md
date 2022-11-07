@@ -56,6 +56,16 @@ diff <(cat .env.example | sed 's/=.*//g' | grep '^[A-Z]' | sort) <(cat .env | se
 $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<host>
 ```
 
+## wireguard
+
+### Log connections
+
+```
+*/3 * * * * wg show all dump | grep 192.168.44 | awk 'BEGIN {}; {if (systime()-$6 <180 ) print strftime("\%m-\%d-\%Y \%H:\%M:\%S", systime()),$5, $4, (systime()-$6) "sec" } ; END {}' >> /var/log/wg.log
+```
+
+replace `192.168.44` with wireguard network prefix
+
 ## cron jobs
 
 - [Crontab guru](https://crontab.guru/) `tool`
