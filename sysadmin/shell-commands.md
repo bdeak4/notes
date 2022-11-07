@@ -55,3 +55,11 @@ diff <(cat .env.example | sed 's/=.*//g' | grep '^[A-Z]' | sort) <(cat .env | se
 ```
 $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<host>
 ```
+
+## multimedia
+
+### reduce video file size
+
+```
+$ ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+```
