@@ -65,6 +65,7 @@ name                                                                       | fee
 [The Erlangelist](https://www.theerlangelist.com)                          | [rss](https://www.theerlangelist.com/rss)                                           | `programming`
 [Tania Rascia](https://www.taniarascia.com)                                | [rss](https://www.taniarascia.com/rss.xml)                                          | `programming`
 [mr.d0x](https://mrd0x.com)                                                | [rss](https://mrd0x.com/rss.xml)                                                    | `sysadmin`
+[Bits about Money](https://bam.kalzumeus.com/)                             | [rss](https://bam.kalzumeus.com/archive/rss/)                                       | `business`
 [Thomas Flight](https://www.youtube.com/c/ThomasFlight)                    | [rss](https://www.youtube.com/feeds/videos.xml?channel_id=UCUyvQV2JsICeLZP4c_h40kA) |
 [CineRanter](https://www.youtube.com/c/TheCineRanter)                      | [rss](https://www.youtube.com/feeds/videos.xml?channel_id=UCCLiQjxOLiL8t8hwl5iB3mA) |
 [Nikita Prokopov](https://tonsky.me/)                                      | [rss](https://tonsky.me/blog/atom.xml)                                              | `programming`
