@@ -48,6 +48,11 @@ replace `192.168.44` with wireguard network prefix
 
 - [A Visual Guide to SSH Tunnels](https://iximiuz.com/en/posts/ssh-tunnels/) `article`
 
+### remote session management
+
+- [tmux](https://github.com/tmux/tmux)
+- [dtach](https://github.com/crigler/dtach)
+
 ### kill session
 
 "Enter" then ~ then . will kill a hung SSH connection, instead of having to close the terminal tab. 
