@@ -6,7 +6,7 @@
 ## feeds
 
 name                                                                       | feed                                                                                | tags
--------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -----------------------------------
+:------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :----------------------------------
 [Architecture Notes](https://architecturenotes.co)                         | [rss](https://architecturenotes.co/rss/)                                            | `sysadmin`
 [Internal Tech Emails](https://www.techemails.com/)                        | [rss](https://www.techemails.com/feed)                                              | `business`
 [Matt Rickard](https://matt-rickard.com)                                   | [rss](https://matt-rickard.com/rss)                                                 | `sysadmin` `business`
