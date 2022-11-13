@@ -2,6 +2,7 @@
 
 - [Curing A Case Of Git-UX](https://peppe.rs/posts/curing_a_case_of_git-UX/) `article`
 - [Learn Git Branching](https://learngitbranching.js.org/) `interactive tutorial`
+- [Git Alias Open Pull Request on GitHub](https://salferrarello.com/git-alias-open-pull-request-github/) `article`
 
 ## commands
 

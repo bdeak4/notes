@@ -74,7 +74,10 @@ replace `192.168.44` with wireguard network prefix
 
 - [Crontab guru](https://crontab.guru/) `tool`
 
-### 
+## data parsing
+
+- [jq](https://github.com/stedolan/jq) `json`
+- [pup](https://github.com/EricChiang/pup) `html`
 
 ## multimedia
 
