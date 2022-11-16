@@ -87,3 +87,6 @@ name                                                                       | fee
 - [TLDR Crypto](https://tldr.tech/crypto)
 - [A Byte of Coding](https://abyteofcoding.com/) `programming`
 - [DevOps Bulletin](https://www.devopsbulletin.com/) `sysadmin`
+- [Unix weekly newsletter](https://discu.eu/weekly/unix/) `sysadmin`
+- [DevOps weekly newsletter](https://discu.eu/weekly/devops/) `sysadmin`
+- [Web Development weekly newsletter](https://discu.eu/weekly/webdev/) `programming`
