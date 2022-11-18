@@ -11,8 +11,10 @@
 
 ## git
 
+- [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out) `article` 
 - [Curing A Case Of Git-UX](https://peppe.rs/posts/curing_a_case_of_git-UX/) `article`
 - [Learn Git Branching](https://learngitbranching.js.org/) `interactive tutorial`
+- [Git Explorer](https://gitexplorer.com/) `interactive tutorial`
 - [Git Alias Open Pull Request on GitHub](https://salferrarello.com/git-alias-open-pull-request-github/) `article`
 
 search repository code changes:
