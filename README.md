@@ -1,5 +1,5 @@
 # notes
 
-- [sysadmin](./sysadmin/)
-- [programming](./programming/)
-- [business](./business/)
+- [sysadmin](./sysadmin.md)
+- [programming](./programming.md)
+- [business](./business.md)
