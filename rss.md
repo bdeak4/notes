@@ -10,7 +10,7 @@ name                                                                       | fee
 [Architecture Notes](https://architecturenotes.co)                         | [rss](https://architecturenotes.co/rss/)                                            | `sysadmin`
 [Internal Tech Emails](https://www.techemails.com/)                        | [rss](https://www.techemails.com/feed)                                              | `business`
 [Matt Rickard](https://matt-rickard.com)                                   | [rss](https://matt-rickard.com/rss)                                                 | `sysadmin` `business`
-[Rachel Kroll](https://rachelbythebay.com/w/)                              | [rss](https://rachelbythebay.com/w/atom.xml)                                        | `sysadmin`
+[Rachel by the bay](https://rachelbythebay.com/w/)                         | [rss](https://rachelbythebay.com/w/atom.xml)                                        | `sysadmin`
 [Simon Willison](https://simonwillison.net)                                | [rss](https://simonwillison.net/atom/everything/)                                   | `programming`
 [Simon Willison (TIL)](https://til.simonwillison.net)                      | [rss](https://til.simonwillison.net/tils/feed.atom)                                 | `programming`
 [Derek Sivers (Tech)](https://sive.rs/tech)                                | [rss](https://sive.rs/tech.atom)                                                    | `programming`
