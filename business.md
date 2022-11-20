@@ -6,6 +6,11 @@
 - [Good enough engineering to start an Internet company](https://www.listennotes.com/blog/good-enough-engineering-to-start-an-internet-27/) `article`
 
 
+## finance
+
+- [Why your house is a terrible investment](https://jlcollinsnh.com/2013/05/29/why-your-house-is-a-terrible-investment/)
+
+
 ## seo
 
 - [Google SEO General Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf) `handbook`
