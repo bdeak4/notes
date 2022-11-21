@@ -126,3 +126,8 @@ Force password auth
 ```sh
 $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<host>
 ```
+
+
+## terraform
+
+- [GitLab as a Terraform state backend](https://balaskas.gr/blog/2022/11/11/gitlab-as-a-terraform-state-backend/)
