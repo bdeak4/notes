@@ -79,6 +79,8 @@ name                                                                       | fee
 [Sebi's Random Tech](https://www.youtube.com/c/SebisRandomTech)            | [rss](https://www.youtube.com/feeds/videos.xml?channel_id=UCcAy1o8VUCkdowxRYbc0XRw) | `sysadmin`
 [My Analog Journal](https://www.youtube.com/c/MyAnalogJournal)             | [rss](https://www.youtube.com/feeds/videos.xml?channel_id=UC8TZwtZ17WKFJSmwTZQpBTA) |
 [LOW TECH MAGAZINE](https://solar.lowtechmagazine.com)                     | [rss](https://solar.lowtechmagazine.com/feeds/all-en.atom.xml)                      |
+[JLCollins](https://jlcollinsnh.com/)                                      | [rss](https://jlcollinsnh.com/feed/)                                                | `business`
+[Evaggelos Balaskas](https://balaskas.gr/blog/)                            | [rss](https://balaskas.gr/blog/feed/rss2/)                                          | `sysadmin`
 [Croatian films](https://www.croatian.film/hr/films)                       | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.croatian.film%2Fhr%2Ffilms&item=article&item_title=h3&max=5&order=document&guid=0) |
 
 ## newsletters
