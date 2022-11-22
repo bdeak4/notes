@@ -12,6 +12,10 @@
 - [Tree views in CSS](https://iamkate.com/code/tree-views/) `article`
 - [A star rating widget in CSS](https://iamkate.com/code/star-rating-widget/) `article`
 
+## functional programming
+
+- [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming) `article`
+
 ## git
 
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out) `article`
