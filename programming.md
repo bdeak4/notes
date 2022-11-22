@@ -9,6 +9,8 @@
 - [Scratch-made SVG Donut & Pie Charts in HTML5](https://heyoka.medium.com/scratch-made-svg-donut-pie-charts-in-html5-2c587e935d72) `article`
 - [Inside the mind of a frontend developer: Hero section](https://ishadeed.com/article/inside-frontend-developer-mind-hero-section/) `article`
 - [getElementsBySelector() (2003)](https://simonwillison.net/2003/Mar/25/getElementsBySelector/) `article`
+- [Tree views in CSS](https://iamkate.com/code/tree-views/) `article`
+- [A star rating widget in CSS](https://iamkate.com/code/star-rating-widget/) `article`
 
 ## git
 
