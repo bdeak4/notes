@@ -11,6 +11,11 @@
 - [getElementsBySelector() (2003)](https://simonwillison.net/2003/Mar/25/getElementsBySelector/) `article`
 - [Tree views in CSS](https://iamkate.com/code/tree-views/) `article`
 - [A star rating widget in CSS](https://iamkate.com/code/star-rating-widget/) `article`
+- [Flexbox Froggy](https://flexboxfroggy.com/) `interactive tutorial`
+- [Grid Garden](https://cssgridgarden.com/) `interactive tutorial`
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) `article`
+- [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) `article`
+- [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) `article`
 
 ## functional programming
 
