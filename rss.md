@@ -82,6 +82,7 @@ name                                                                       | fee
 [JLCollins](https://jlcollinsnh.com/)                                      | [rss](https://jlcollinsnh.com/feed/)                                                | `business`
 [Evaggelos Balaskas](https://balaskas.gr/blog/)                            | [rss](https://balaskas.gr/blog/feed/rss2/)                                          | `sysadmin`
 [Miniflux Releases](https://miniflux.app/releases.html)                    | [rss](https://miniflux.app/feed.xml)                                                | `sysadmin`
+[Josh Comeau](https://www.joshwcomeau.com/)                                | [rss](https://www.joshwcomeau.com/rss.xml)                                          | `programming`
 [Croatian films](https://www.croatian.film/hr/films)                       | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.croatian.film%2Fhr%2Ffilms&item=article&item_title=h3&max=5&order=document&guid=0) |
 [MXroute News](https://accounts.mxroute.com/index.php?/news/)              | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Faccounts.mxroute.com%2Findex.php%3F%2Fnews%2F&in_id_or_class=roll-link&max=5&order=document&guid=0) | `sysadmin`
 
