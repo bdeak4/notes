@@ -16,6 +16,7 @@
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) `article`
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) `article`
 - [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) `article`
+- [Lazy loading images in HTML](https://til.simonwillison.net/html/lazy-loading-images) `article`
 
 ## functional programming
 
