@@ -131,3 +131,8 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 ## terraform
 
 - [GitLab as a Terraform state backend](https://balaskas.gr/blog/2022/11/11/gitlab-as-a-terraform-state-backend/)
+
+## ci/cd
+
+- [Simulating ternary operator in GitHub Actions Workflows](https://knutle.dev/simulating-ternary-operator-in-github-actions-workflows/)
+
