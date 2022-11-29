@@ -30,6 +30,7 @@ $ docker ps
 
 ## scripting
 
+- [Now that's what I call a Hacker](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)
 - [wait for port to be up](https://github.com/vishnubob/wait-for-it)
 
 parse cli arguments:
