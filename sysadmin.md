@@ -43,6 +43,11 @@ while test $# -gt 0; do
 done
 ```
 
+get script directory:
+```sh
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+```
+
 find tcp ports device is listening on
 ```sh
 $ sudo ss --listen --tcp --process --numeric
