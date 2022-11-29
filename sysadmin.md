@@ -1,6 +1,8 @@
-# sysadmin/devops
+# sysadmin
 
 ## processes
+
+devops:
 
 - [A practical way to upgrade Postgres major versions with near-zero downtime](https://www.listennotes.com/blog/a-practical-way-to-upgrade-postgres-major-49/) `article`
 - [Atomic Versioned Deploys in S3](https://samswanke.com/2019/10/03/atomic-versioned-deploys-in-s3.html) `article`
@@ -9,8 +11,22 @@
 - [Blue/Green Deployments on AWS](https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf) `whitepaper`
 - [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/) `article`
 - [Use Application Load Balancers for Blue-Green and Canary Deployments](https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-canary-tests-deployments) `article`
+
+sysadmin:
+
 - [AWS Email Forwarder for almost free](https://nealalan.github.io/AWS-Email-Forwarder/) `article`
 - [Increasing Battery Life on an Arch Linux Laptop (ThinkPad T14s)](https://austingwalters.com/increasing-battery-life-on-an-arch-linux-laptop-thinkpad-t14s/) `article`
+- [Why I usually run 'w' first when troubleshooting unknown machines](https://rachelbythebay.com/w/2018/03/26/w/) `article`
+
+unknown server investigation:
+```
+$ w
+$ last
+$ systemctl | grep running
+$ ps auxwf
+$ lsof -i -P
+$ docker ps
+```
 
 ## scripting
 
@@ -135,4 +151,5 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 ## ci/cd
 
 - [Simulating ternary operator in GitHub Actions Workflows](https://knutle.dev/simulating-ternary-operator-in-github-actions-workflows/)
+- [ssh into github action runner](https://github.com/mxschmitt/action-tmate)
 
