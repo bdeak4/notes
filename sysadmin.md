@@ -107,6 +107,8 @@ data parsing cmds:
 
 ### ffmpeg multimedia stuff
 
+- [Remove silence from video files](https://github.com/bambax/Remsi)
+
 reduce video file size
 
 ```sh
