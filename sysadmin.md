@@ -118,6 +118,10 @@ reduce video file size
 $ ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 ```
 
+## photography
+
+- [Exposure Triangle simulator](https://dima.fi/exposure/) `tool`
+
 ## learning
 
 - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) `article`
