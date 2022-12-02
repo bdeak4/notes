@@ -79,3 +79,7 @@ complex logs:
 ```
 $ git log --graph --all --decorate --stat --date=iso
 ```
+
+## python
+
+- [Build Portable Binaries of Python Applications](https://hynek.me/til/python-portable-binaries/)
