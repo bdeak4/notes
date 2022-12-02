@@ -32,6 +32,7 @@ $ docker ps
 
 - [Now that's what I call a Hacker](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)
 - [wait for port to be up](https://github.com/vishnubob/wait-for-it)
+- [Bash keyboard shortcuts](https://www.masteringemacs.org/article/keyboard-shortcuts-every-command-line-hacker-should-know-about-gnu-readline)
 
 parse cli arguments:
 ```sh
