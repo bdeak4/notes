@@ -122,14 +122,19 @@ $ ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 
 - [Exposure Triangle simulator](https://dima.fi/exposure/) `tool`
 
-## learning
+## http
 
 - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) `article`
+
+## docker
+
+- [Running Docker Containers as a Non-root User with a Custom UID / GID](https://nickjanetakis.com/blog/running-docker-containers-as-a-non-root-user-with-a-custom-uid-and-gid) `article`
 
 
 ## zfs
 
 - [ZFS High-Availability NAS](https://github.com/ewwhite/zfs-ha/wiki) `article`
+- [Install and Setup ZFS on Debian 11](https://tweenpath.net/install-setup-zfs-debian-11/) `article`
 
 ## wireguard
 
