@@ -135,6 +135,14 @@ $ ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 
 - [ZFS High-Availability NAS](https://github.com/ewwhite/zfs-ha/wiki) `article`
 - [Install and Setup ZFS on Debian 11](https://tweenpath.net/install-setup-zfs-debian-11/) `article`
+- [What Is ZFS?: A Brief Primer](https://www.youtube.com/watch?v=lsFDp-W1Ks0) `YT video` `32 minutes`
+- [Forbidden Arts of ZFS | Episode 3 | ZFS and mixed size drives](https://www.youtube.com/watch?v=JiVGOpMr87w) `YT video` `14 minutes`
+- [So How Hard Is It To Crash and Kill a FreeNAS 11 ZFS Raid Z1 Array?](https://www.youtube.com/watch?v=vxFNBZIAClc) `YT video` `10 minutes`
+- [ZFS 101 - Understanding ZFS storage and performance - Ars Technica](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/) `Article` `8 minutes`
+- [Using ZFS Replication for Incremental Backups Over SSH on Linux](https://www.youtube.com/watch?v=NHM2T0uxkUM) `YT video` `53 minutes`
+- [RAID-Z Expansion Feature for ZFS In the Home Stretch - FreeBSD Foundation](https://freebsdfoundation.org/blog/raid-z-expansion-feature-for-zfs/) `Article` `4 minutes`
+- [How to upgrade a ZFS RAID-Z array to larger disks on OpenSolaris? - Server Fault](https://serverfault.com/a/15330) `SO answer`
+- [ZFS Capacity Calculator - WintelGuy.com](https://wintelguy.com/zfs-calc.pl) `Web tool`
 
 ## wireguard
 
@@ -172,4 +180,5 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 - [Simulating ternary operator in GitHub Actions Workflows](https://knutle.dev/simulating-ternary-operator-in-github-actions-workflows/)
 - [ssh into github action runner](https://github.com/mxschmitt/action-tmate)
+- [Automate Terraform with GitHub Actions](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions)
 
