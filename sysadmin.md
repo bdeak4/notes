@@ -178,7 +178,8 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 ## ci/cd
 
+- [action-tmate - ssh into github action runner](https://github.com/mxschmitt/action-tmate) `gh action`
+- [setup-terraform](https://github.com/hashicorp/setup-terraform) `gh action`
 - [Simulating ternary operator in GitHub Actions Workflows](https://knutle.dev/simulating-ternary-operator-in-github-actions-workflows/)
-- [ssh into github action runner](https://github.com/mxschmitt/action-tmate)
 - [Automate Terraform with GitHub Actions](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions)
 
