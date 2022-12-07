@@ -11,7 +11,7 @@ devops:
 - [Blue/Green Deployments on AWS](https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf) `whitepaper`
 - [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/) `article`
 - [Use Application Load Balancers for Blue-Green and Canary Deployments](https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-canary-tests-deployments) `article`
-- [CloudFront vs Cloudflare, and how to reduce response times for both by ~35%+](https://www.foxy.io/blog/cloudfront-vs-cloudflare-and-how-to-reduce-response-times-for-both-by-35/) `article`
+- [CloudFront vs Cloudflare, and how to reduce response times for both by ~35%+](https://www.foxy.io/blog/cloudfront-vs-cloudflare-and-how-to-reduce-response-times-for-both-by-35/) - origin shield `article`
 - [Authenticating to AWS the right way for (almost) every use-case](https://leebriggs.co.uk/blog/2022/09/05/authenticating-to-aws-the-right-way) `article`
 
 sysadmin:
@@ -178,7 +178,7 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 ## ci/cd
 
-- [action-tmate - ssh into github action runner](https://github.com/mxschmitt/action-tmate) `gh action`
+- [action-tmate](https://github.com/mxschmitt/action-tmate) - ssh into github action runner `gh action`
 - [setup-terraform](https://github.com/hashicorp/setup-terraform) `gh action`
 - [Simulating ternary operator in GitHub Actions Workflows](https://knutle.dev/simulating-ternary-operator-in-github-actions-workflows/)
 - [Automate Terraform with GitHub Actions](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions)
