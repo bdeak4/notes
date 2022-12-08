@@ -32,9 +32,13 @@ $ docker ps
 
 ## scripting
 
-- [Now that's what I call a Hacker](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)
-- [wait for port to be up](https://github.com/vishnubob/wait-for-it)
-- [Bash keyboard shortcuts](https://www.masteringemacs.org/article/keyboard-shortcuts-every-command-line-hacker-should-know-about-gnu-readline)
+- [Now that's what I call a Hacker](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/) `article`
+- [wait for port to be up](https://github.com/vishnubob/wait-for-it) `tool`
+- [Bash keyboard shortcuts](https://www.masteringemacs.org/article/keyboard-shortcuts-every-command-line-hacker-should-know-about-gnu-readline) `article`
+- [Writing Robust Bash Shell Scripts](https://www.davidpashley.com/articles/writing-robust-shell-scripts/) `article`
+- [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/) `article`
+- [Httpbun](https://httpbun.com/) - http echo `tool`
+- [serverless pastebin](https://topaz.github.io/paste/) - all data stored in url `tool`
 
 parse cli arguments:
 ```sh
