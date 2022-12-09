@@ -147,6 +147,7 @@ $ ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 - [RAID-Z Expansion Feature for ZFS In the Home Stretch - FreeBSD Foundation](https://freebsdfoundation.org/blog/raid-z-expansion-feature-for-zfs/) `Article` `4 minutes`
 - [How to upgrade a ZFS RAID-Z array to larger disks on OpenSolaris? - Server Fault](https://serverfault.com/a/15330) `SO answer`
 - [ZFS Capacity Calculator - WintelGuy.com](https://wintelguy.com/zfs-calc.pl) `Web tool`
+- [ZFS alert to avoid nasty surprises](https://thesmarthomejourney.com/2022/02/07/zfs-alert-via-pushover/)
 
 ## wireguard
 
