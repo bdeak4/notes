@@ -86,6 +86,7 @@ name                                                                       | fee
 [Oblac](https://oblac.rs/)                                                 | [rss](https://oblac.rs/index.xml)                                                   | `programming`
 [The Valuable Dev](https://thevaluable.dev/)                               | [rss](https://thevaluable.dev/index.xml)                                            | `sysadmin`
 [The Sharat's](https://sharats.me/posts/)                                  | [rss](https://sharats.me/posts/index.xml)                                           | `sysadmin` `programming`
+[Evan Martin](https://neugierig.org/software/blog/)                        | [rss](https://neugierig.org/software/blog/atom.xml)                                 | `sysadmin` `programming`
 [Croatian films](https://www.croatian.film/hr/films)                       | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.croatian.film%2Fhr%2Ffilms&item=article&item_title=h3&max=5&order=document&guid=0) |
 [MXroute News](https://accounts.mxroute.com/index.php?/news/)              | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Faccounts.mxroute.com%2Findex.php%3F%2Fnews%2F&in_id_or_class=roll-link&max=5&order=document&guid=0) | `sysadmin`
 
