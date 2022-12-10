@@ -39,6 +39,7 @@ $ docker ps
 - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/) `article`
 - [Httpbun](https://httpbun.com/) - http echo `tool`
 - [serverless pastebin](https://topaz.github.io/paste/) - all data stored in url `tool`
+- [localtunnel](https://github.com/localtunnel/localtunnel) - expose port to public internet `tool`
 
 parse cli arguments:
 ```sh
