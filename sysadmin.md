@@ -19,6 +19,7 @@ sysadmin:
 - [AWS Email Forwarder for almost free](https://nealalan.github.io/AWS-Email-Forwarder/) `article`
 - [Increasing Battery Life on an Arch Linux Laptop (ThinkPad T14s)](https://austingwalters.com/increasing-battery-life-on-an-arch-linux-laptop-thinkpad-t14s/) `article`
 - [Why I usually run 'w' first when troubleshooting unknown machines](https://rachelbythebay.com/w/2018/03/26/w/) `article`
+- [Three Envelopes That taught me a Life Lesson in IT](https://community.spiceworks.com/topic/284059-three-envelopes-that-taught-me-a-life-lesson-in-it) `article`
 
 unknown server investigation:
 ```
@@ -40,6 +41,9 @@ $ docker ps
 - [Httpbun](https://httpbun.com/) - http echo `tool`
 - [serverless pastebin](https://topaz.github.io/paste/) - all data stored in url `tool`
 - [localtunnel](https://github.com/localtunnel/localtunnel) - expose port to public internet `tool`
+- [hishtory](https://github.com/ddworken/hishtory) - better shell history
+- [Measure drive speed](https://askubuntu.com/questions/87035/how-to-check-hard-disk-performance/991311#991311) `so answer`
+
 
 parse cli arguments:
 ```sh
