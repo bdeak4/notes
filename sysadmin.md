@@ -13,6 +13,11 @@ devops:
 - [Use Application Load Balancers for Blue-Green and Canary Deployments](https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-canary-tests-deployments) `article`
 - [CloudFront vs Cloudflare, and how to reduce response times for both by ~35%+](https://www.foxy.io/blog/cloudfront-vs-cloudflare-and-how-to-reduce-response-times-for-both-by-35/) - origin shield `article`
 - [Authenticating to AWS the right way for (almost) every use-case](https://leebriggs.co.uk/blog/2022/09/05/authenticating-to-aws-the-right-way) `article`
+- [URL redirection with AWS Lambda@Edge](https://blog.cavelab.dev/2021/06/aws-lambda-edge-redirect/) `article`
+- [Wildcard subdomains point to appropriate S3/CloudFront subdirectories](https://stackoverflow.com/questions/37634821/wildcard-subdomains-point-to-appropriate-s3-cloudfront-subdirectories/48745986#48745986) `so answer`
+- [Strategies for deploying database migrations](https://www.prisma.io/dataguide/types/relational/migration-strategies) `article`
+- [Using the expand and contract pattern for schema changes](https://www.prisma.io/dataguide/types/relational/expand-and-contract-pattern) `article`
+- [High level overview of devops processes](https://web.archive.org/web/20200114165727/https://cs.gmu.edu/%7Etlatoza/teaching/swe432f19/Lecture-13-Deployment.pdf) `slides`
 
 sysadmin:
 
@@ -20,6 +25,7 @@ sysadmin:
 - [Increasing Battery Life on an Arch Linux Laptop (ThinkPad T14s)](https://austingwalters.com/increasing-battery-life-on-an-arch-linux-laptop-thinkpad-t14s/) `article`
 - [Why I usually run 'w' first when troubleshooting unknown machines](https://rachelbythebay.com/w/2018/03/26/w/) `article`
 - [Three Envelopes That taught me a Life Lesson in IT](https://community.spiceworks.com/topic/284059-three-envelopes-that-taught-me-a-life-lesson-in-it) `article`
+- [How to configure a PostgreSQL database on RDS](https://www.prisma.io/dataguide/postgresql/setting-up-postgresql-on-rds) `article`
 
 unknown server investigation:
 ```
@@ -30,6 +36,24 @@ $ ps auxwf
 $ lsof -i -P
 $ docker ps
 ```
+
+analyzing logs ([src](https://news.ycombinator.com/item?id=33977143)):
+```sh
+$ cat file.log | sed 's/[0-9]//g' | sort | uniq -c | sort -nr
+```
+
+grep view context ([src](https://news.ycombinator.com/item?id=33976503)):
+```sh
+$ grep regex /var/log/logfile -A5    # view next 5 lines
+$ grep regex /var/log/logfile -B5    # view previous 5 lines
+$ grep regex /var/log/logfile -C5    # view 5 lines before and after the match
+```
+
+grep for multiple values ([src](https://news.ycombinator.com/item?id=33981124)):
+```sh
+$ grep -vE "THING1|THING2|THING3|THING4" file 
+```
+
 
 ## scripting
 
@@ -43,6 +67,8 @@ $ docker ps
 - [localtunnel](https://github.com/localtunnel/localtunnel) - expose port to public internet `tool`
 - [hishtory](https://github.com/ddworken/hishtory) - better shell history
 - [Measure drive speed](https://askubuntu.com/questions/87035/how-to-check-hard-disk-performance/991311#991311) `so answer`
+- [Better Bash History](https://www.thomaslaurenson.com/blog/2018-07-02/better-bash-history/) `article`
+- [CallMeBot.com](https://www.callmebot.com/blog/free-api-whatsapp-messages/) - Free API to Send Whatsapp Messages `tool`
 
 
 parse cli arguments:
@@ -193,3 +219,6 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 - [Simulating ternary operator in GitHub Actions Workflows](https://knutle.dev/simulating-ternary-operator-in-github-actions-workflows/)
 - [Automate Terraform with GitHub Actions](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions)
 
+## random
+
+- [Guest WiFi using a QR code](https://blog.jgc.org/2022/07/guest-wifi-using-qr-code.html) `article`
