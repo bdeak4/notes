@@ -18,6 +18,7 @@ devops:
 - [Strategies for deploying database migrations](https://www.prisma.io/dataguide/types/relational/migration-strategies) `article`
 - [Using the expand and contract pattern for schema changes](https://www.prisma.io/dataguide/types/relational/expand-and-contract-pattern) `article`
 - [High level overview of devops processes](https://web.archive.org/web/20200114165727/https://cs.gmu.edu/%7Etlatoza/teaching/swe432f19/Lecture-13-Deployment.pdf) `slides`
+- [Automated blue/green database deployments](https://octopus.com/blog/databases-with-blue-green-deployments) `article`
 
 sysadmin:
 
@@ -69,6 +70,8 @@ $ grep -vE "THING1|THING2|THING3|THING4" file
 - [Measure drive speed](https://askubuntu.com/questions/87035/how-to-check-hard-disk-performance/991311#991311) `so answer`
 - [Better Bash History](https://www.thomaslaurenson.com/blog/2018-07-02/better-bash-history/) `article`
 - [CallMeBot.com](https://www.callmebot.com/blog/free-api-whatsapp-messages/) - Free API to Send Whatsapp Messages `tool`
+- [google image resizing api](https://news.ycombinator.com/item?id=29747388)
+- [google search api](https://news.ycombinator.com/item?id=29747526)
 
 
 parse cli arguments:
@@ -164,6 +167,11 @@ $ ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 ## docker
 
 - [Running Docker Containers as a Non-root User with a Custom UID / GID](https://nickjanetakis.com/blog/running-docker-containers-as-a-non-root-user-with-a-custom-uid-and-gid) `article`
+- [Fast-Docker](https://github.com/omerbsezer/Fast-Docker)
+
+## ansible
+
+- [Fast-Ansible](https://github.com/omerbsezer/Fast-Ansible)
 
 
 ## zfs
@@ -210,6 +218,7 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 ## terraform
 
+- [Best practices for using Terraform](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
 - [GitLab as a Terraform state backend](https://balaskas.gr/blog/2022/11/11/gitlab-as-a-terraform-state-backend/)
 
 ## ci/cd
@@ -222,3 +231,4 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 ## random
 
 - [Guest WiFi using a QR code](https://blog.jgc.org/2022/07/guest-wifi-using-qr-code.html) `article`
+- [Fake Windows Update Screens](https://fakeupdate.net/) `tool`
