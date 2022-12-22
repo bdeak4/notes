@@ -95,6 +95,8 @@ name                                                                       | fee
 [Soft Skills Engineering](https://softskills.audio/)                       | [rss](https://softskills.audio/feed.xml)                                            | `business`
 [Thomas Laurenson](https://www.thomaslaurenson.com/blog/)                  | [rss](https://www.thomaslaurenson.com/rss.xml)                                      | `sysadmin`
 [Cavelab blog](https://blog.cavelab.dev/)                                  | [rss](https://blog.cavelab.dev/index.xml)                                           | `sysadmin`
+[Pawel Grzybek](https://pawelgrzybek.com/)                                 | [rss](https://pawelgrzybek.com/feed.xml)                                            | `sysadmin`
+[Code Aesthetic](https://www.youtube.com/@CodeAesthetic)                   | [rss](https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg) | `programming`
 [Unvalidated Ideas](https://unvalidatedideas.com/archive)                  | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Funvalidatedideas.com%2Farchive&in_id_or_class=edition-card&max=5&order=document&guid=0)             | `business`
 [MXroute News](https://accounts.mxroute.com/index.php?/news/)              | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Faccounts.mxroute.com%2Findex.php%3F%2Fnews%2F&in_id_or_class=roll-link&max=5&order=document&guid=0) | `sysadmin`
 [Croatian films](https://www.croatian.film/hr/films)                       | [rss](https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.croatian.film%2Fhr%2Ffilms&item=article&item_title=h3&max=5&order=document&guid=0)              |
