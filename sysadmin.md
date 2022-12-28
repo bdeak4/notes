@@ -72,6 +72,7 @@ $ grep -vE "THING1|THING2|THING3|THING4" file
 - [CallMeBot.com](https://www.callmebot.com/blog/free-api-whatsapp-messages/) - Free API to Send Whatsapp Messages `tool`
 - [google image resizing api](https://news.ycombinator.com/item?id=29747388)
 - [google search api](https://news.ycombinator.com/item?id=29747526)
+- [fix ssh in kitty terminal](https://sw.kovidgoyal.net/kitty/faq/#i-get-errors-about-the-terminal-being-unknown-or-opening-the-terminal-failing-when-sshing-into-a-different-computer)
 
 
 parse cli arguments:
