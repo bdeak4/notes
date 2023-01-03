@@ -73,6 +73,11 @@ $ grep -vE "THING1|THING2|THING3|THING4" file
 - [google image resizing api](https://news.ycombinator.com/item?id=29747388)
 - [google search api](https://news.ycombinator.com/item?id=29747526)
 - [fix ssh in kitty terminal](https://sw.kovidgoyal.net/kitty/faq/#i-get-errors-about-the-terminal-being-unknown-or-opening-the-terminal-failing-when-sshing-into-a-different-computer)
+- [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/) `article series`
+- [Cron best practices](https://blog.sanctum.geek.nz/cron-best-practices/) `article`
+- [Let that rsync in](https://sanctum.geek.nz/presentations/let-that-rsync-in.pdf) `slides`
+- [Bring AWS Notifications Into Your Slack Channel](https://dev.to/aws-builders/bring-aws-notifications-into-your-slack-channel-gd4)
+- [Prompt directory shortening](https://blog.sanctum.geek.nz/prompt-directory-shortening/)
 
 
 parse cli arguments:
