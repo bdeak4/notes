@@ -96,9 +96,6 @@ $ grep -vE "THING1|THING2|THING3|THING4" file
 - [hishtory](https://github.com/ddworken/hishtory) - better shell history
 - [Measure drive speed](https://askubuntu.com/questions/87035/how-to-check-hard-disk-performance/991311#991311) `so answer`
 - [Better Bash History](https://www.thomaslaurenson.com/blog/2018-07-02/better-bash-history/) `article`
-- [CallMeBot.com](https://www.callmebot.com/blog/free-api-whatsapp-messages/) - Free API to Send Whatsapp Messages `tool`
-- [google image resizing api](https://news.ycombinator.com/item?id=29747388)
-- [google search api](https://news.ycombinator.com/item?id=29747526)
 - [fix ssh in kitty terminal](https://sw.kovidgoyal.net/kitty/faq/#i-get-errors-about-the-terminal-being-unknown-or-opening-the-terminal-failing-when-sshing-into-a-different-computer)
 - [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/) `article series`
 - [Cron best practices](https://blog.sanctum.geek.nz/cron-best-practices/) `article`
@@ -106,6 +103,7 @@ $ grep -vE "THING1|THING2|THING3|THING4" file
 - [Bring AWS Notifications Into Your Slack Channel](https://dev.to/aws-builders/bring-aws-notifications-into-your-slack-channel-gd4)
 - [Prompt directory shortening](https://blog.sanctum.geek.nz/prompt-directory-shortening/)
 - [Flameshot](https://flameshot.org/) `tool`
+
 
 find tcp ports device is listening on
 ```sh
