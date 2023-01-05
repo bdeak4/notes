@@ -38,6 +38,28 @@ $ lsof -i -P
 $ docker ps
 ```
 
+man search for command:
+```
+man -k cmd
+```
+
+man search for command and open all pages:
+```
+man -K cmd
+```
+
+fastest way to transfer files in local network ([src](https://old.reddit.com/r/linuxadmin/comments/zu09e7/speed_up_rsync_or_use_tar_for_server/j1gl3i3/)):
+
+source:
+```
+tar -cvf - /SOURCEDIR | nc TARGETIP 10240
+```
+
+target:
+```
+nc -l 10240 | tar -xvf -
+```
+
 analyzing logs ([src](https://news.ycombinator.com/item?id=33977143)):
 ```sh
 $ cat file.log | sed 's/[0-9]//g' | sort | uniq -c | sort -nr
@@ -54,6 +76,11 @@ grep for multiple values ([src](https://news.ycombinator.com/item?id=33981124)):
 ```sh
 $ grep -vE "THING1|THING2|THING3|THING4" file 
 ```
+
+## rss
+
+- [Kill the Newsletter](https://kill-the-newsletter.com/) `tool`
+- [Feed Creator](https://createfeed.fivefilters.org/index.php) `tool`
 
 
 ## scripting
@@ -78,22 +105,7 @@ $ grep -vE "THING1|THING2|THING3|THING4" file
 - [Let that rsync in](https://sanctum.geek.nz/presentations/let-that-rsync-in.pdf) `slides`
 - [Bring AWS Notifications Into Your Slack Channel](https://dev.to/aws-builders/bring-aws-notifications-into-your-slack-channel-gd4)
 - [Prompt directory shortening](https://blog.sanctum.geek.nz/prompt-directory-shortening/)
-
-
-parse cli arguments:
-```sh
-while test $# -gt 0; do  
-  case "$1" in  
-    -f|--flag) shift; FLAG="$1";;  
-  esac  
-  shift  
-done
-```
-
-get script directory:
-```sh
-dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
-```
+- [Flameshot](https://flameshot.org/) `tool`
 
 find tcp ports device is listening on
 ```sh
@@ -222,10 +234,6 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 ```
 
 
-## terraform
-
-- [Best practices for using Terraform](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
-- [GitLab as a Terraform state backend](https://balaskas.gr/blog/2022/11/11/gitlab-as-a-terraform-state-backend/)
 
 ## ci/cd
 
