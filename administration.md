@@ -233,13 +233,6 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 
 
-## ci/cd
-
-- [action-tmate](https://github.com/mxschmitt/action-tmate) - ssh into github action runner `gh action`
-- [setup-terraform](https://github.com/hashicorp/setup-terraform) `gh action`
-- [Simulating ternary operator in GitHub Actions Workflows](https://knutle.dev/simulating-ternary-operator-in-github-actions-workflows/)
-- [Automate Terraform with GitHub Actions](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions)
-
 ## random
 
 - [Guest WiFi using a QR code](https://blog.jgc.org/2022/07/guest-wifi-using-qr-code.html) `article`
