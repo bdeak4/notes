@@ -8,6 +8,7 @@
 - [CallMeBot.com](https://www.callmebot.com/blog/free-api-whatsapp-messages/) - Free API to Send Whatsapp Messages `tool`
 - [Google image resizing api](https://news.ycombinator.com/item?id=29747388) `hn comment`
 - [Google search api](https://news.ycombinator.com/item?id=29747526) `hn comment`
+- [So you want to Scrape like the Big Boys?](https://incolumitas.com/2021/11/03/so-you-want-to-scrape-like-the-big-boys/)
 
 
 ## bash patterns

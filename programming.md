@@ -20,7 +20,8 @@
 - [Color Formats in CSS](https://www.joshwcomeau.com/css/color-formats/) `article`
 - [React Wrap Balancer](https://react-wrap-balancer.vercel.app/) `react component`
 - [Google SEO General Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf) `handbook`
-
+- [System font stack](https://systemfontstack.com/)
+- [CSS Easing functions](https://easings.net/)
 
 ## functional programming
 
