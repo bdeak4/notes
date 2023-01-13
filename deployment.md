@@ -1,5 +1,7 @@
 # deployment
 
+- [Nginx - Shell Script CGI](https://techexpert.tips/nginx/nginx-shell-script-cgi/)
+
 
 ## terraform
 
