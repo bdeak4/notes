@@ -4,6 +4,7 @@
 
 - [Nginx - Shell Script CGI](https://techexpert.tips/nginx/nginx-shell-script-cgi/)
 - [Nginx - WebSocket proxying](http://nginx.org/en/docs/http/websocket.html)
+- [Why I recommend CGI instead of web frameworks](https://halestrom.net/darksleep/blog/046_cgi/)
 
 
 ## terraform
