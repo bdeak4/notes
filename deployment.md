@@ -1,5 +1,7 @@
 # deployment
 
+- [Deploying Python web apps as AWS Lambda functions](https://til.simonwillison.net/awslambda/asgi-mangum)
+
 ## nginx
 
 - [Nginx - Shell Script CGI](https://techexpert.tips/nginx/nginx-shell-script-cgi/)
