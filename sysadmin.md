@@ -77,6 +77,15 @@ grep for multiple values ([src](https://news.ycombinator.com/item?id=33981124)):
 $ grep -vE "THING1|THING2|THING3|THING4" file 
 ```
 
+- [How (and Why) to Log Your Entire Bash History](https://spin.atomicobject.com/2016/05/28/log-bash-history/) `article`
+
+find to which package file belongs 
+```
+rhel$ rpm -qf <file>
+deb$ dpkg-query -S <file>
+```
+
+
 ## rss
 
 - [Kill the Newsletter](https://kill-the-newsletter.com/) `tool`
@@ -240,3 +249,4 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 
 - [OpenTelemetry NodeJS: All you need to know](https://lightstep.com/blog/opentelemetry-nodejs)
+- [Casio F-91W cheat sheet](https://menga.net/casio-f91w-cheat-sheet)
