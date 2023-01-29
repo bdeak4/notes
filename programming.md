@@ -23,6 +23,8 @@
 - [System font stack](https://systemfontstack.com/)
 - [CSS Easing functions](https://easings.net/)
 - [Filter Blend - CSS blend modes and filters playground](https://ilyashubin.github.io/FilterBlend/)
+- [SVG Path Visualizer](https://svg-path-visualizer.netlify.app)
+- [SVG Sprites generator](https://svgsprit.es/)
 
 ## functional programming
 

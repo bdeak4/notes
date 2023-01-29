@@ -10,7 +10,8 @@
 - [Google image resizing api](https://news.ycombinator.com/item?id=29747388) `hn comment`
 - [Google search api](https://news.ycombinator.com/item?id=29747526) `hn comment`
 - [So you want to Scrape like the Big Boys?](https://incolumitas.com/2021/11/03/so-you-want-to-scrape-like-the-big-boys/)
-
+- [currency exchange api](https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml)
+- [stock price api](https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=price)
 
 ## bash patterns
 
