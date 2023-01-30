@@ -85,6 +85,10 @@ rhel$ rpm -qf <file>
 deb$ dpkg-query -S <file>
 ```
 
+search man pages
+```
+man -k <query>
+```
 
 ## rss
 
