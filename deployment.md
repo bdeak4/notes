@@ -34,3 +34,4 @@
 
 - [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html)
 - [A Beginner's Guide to Scaling to 11 Million+ Users on Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
+- [Building a Billion User Load Balancer Patrick Shuff USENIX LISA December 2016](https://www.youtube.com/watch?v=bxhYNfFeVF4)
