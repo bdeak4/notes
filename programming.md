@@ -1,5 +1,8 @@
 # programming
 
+- [How to Use Google Spreadsheet as a Backend for Your App](https://betterprogramming.pub/google-spreadsheet-as-a-backend-b6b51541f1e1) `article`
+- [google-spreadsheet js lib](https://theoephraim.github.io/node-google-spreadsheet/#/)
+
 ## code review
 
 - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/) `handbook`

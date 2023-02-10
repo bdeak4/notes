@@ -91,6 +91,11 @@ search man pages
 man -k <query>
 ```
 
+right way to shut down system:
+```
+halt -p
+```
+
 ## rss
 
 - [Kill the Newsletter](https://kill-the-newsletter.com/) `tool`
