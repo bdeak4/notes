@@ -27,6 +27,7 @@ sysadmin:
 - [Why I usually run 'w' first when troubleshooting unknown machines](https://rachelbythebay.com/w/2018/03/26/w/) `article`
 - [Three Envelopes That taught me a Life Lesson in IT](https://community.spiceworks.com/topic/284059-three-envelopes-that-taught-me-a-life-lesson-in-it) `article`
 - [How to configure a PostgreSQL database on RDS](https://www.prisma.io/dataguide/postgresql/setting-up-postgresql-on-rds) `article`
+- [CDN guide](https://github.com/leandromoreira/cdn-up-and-running)
 
 unknown server investigation:
 ```

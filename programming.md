@@ -26,6 +26,10 @@
 - [SVG Path Visualizer](https://svg-path-visualizer.netlify.app)
 - [SVG Sprites generator](https://svgsprit.es/)
 
+## sql
+
+- [SQL Formatter](https://sql-formatter-org.github.io/sql-formatter/)
+
 ## functional programming
 
 - [An introduction to functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming) `article`
@@ -39,3 +43,7 @@
 ## python
 
 - [Build Portable Binaries of Python Applications](https://hynek.me/til/python-portable-binaries/)
+
+## Excel
+
+- [You Suck at Excel with Joel Spolsky](https://www.youtube.com/watch?v=0nbkaYsR94c) `talk`
