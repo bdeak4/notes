@@ -28,6 +28,29 @@
 - [Filter Blend - CSS blend modes and filters playground](https://ilyashubin.github.io/FilterBlend/)
 - [SVG Path Visualizer](https://svg-path-visualizer.netlify.app)
 - [SVG Sprites generator](https://svgsprit.es/)
+- [CSS-animated hamburgers](https://jonsuh.com/hamburgers/)
+- [react-zoom-pan-pinch](https://github.com/prc5/react-zoom-pan-pinch)
+- [I’m harvesting credit card numbers and passwords from your site. Here’s how.](https://david-gilbertson.medium.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
+
+```
+.spinner {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 4px solid rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #000000;
+  animation: spinner-animation 1.2s infinite linear;
+}
+
+@keyframes spinner-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+```
 
 ## sql
 
@@ -50,3 +73,9 @@
 ## Excel
 
 - [You Suck at Excel with Joel Spolsky](https://www.youtube.com/watch?v=0nbkaYsR94c) `talk`
+
+
+docker prune everything:
+```
+docker system prune --all
+```

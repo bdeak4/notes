@@ -28,6 +28,7 @@ sysadmin:
 - [Three Envelopes That taught me a Life Lesson in IT](https://community.spiceworks.com/topic/284059-three-envelopes-that-taught-me-a-life-lesson-in-it) `article`
 - [How to configure a PostgreSQL database on RDS](https://www.prisma.io/dataguide/postgresql/setting-up-postgresql-on-rds) `article`
 - [CDN guide](https://github.com/leandromoreira/cdn-up-and-running)
+- [How RAID-6 dual parity calculation works](https://igoro.com/archive/how-raid-6-dual-parity-calculation-works/)
 
 unknown server investigation:
 ```
@@ -260,3 +261,10 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 - [OpenTelemetry NodeJS: All you need to know](https://lightstep.com/blog/opentelemetry-nodejs)
 - [Casio F-91W cheat sheet](https://menga.net/casio-f91w-cheat-sheet)
+
+
+vim sum selected numbers:
+
+```
+!awk '{print; sum+=$1}END{print sum}'
+```
