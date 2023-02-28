@@ -29,6 +29,7 @@ sysadmin:
 - [How to configure a PostgreSQL database on RDS](https://www.prisma.io/dataguide/postgresql/setting-up-postgresql-on-rds) `article`
 - [CDN guide](https://github.com/leandromoreira/cdn-up-and-running)
 - [How RAID-6 dual parity calculation works](https://igoro.com/archive/how-raid-6-dual-parity-calculation-works/)
+- [Have Postgresql accept 1 and 0 as true and false for boolean](https://dba.stackexchange.com/questions/46140/have-postgresql-accept-1-and-0-as-true-and-false-for-boolean)
 
 unknown server investigation:
 ```
@@ -261,7 +262,7 @@ $ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ho
 
 - [OpenTelemetry NodeJS: All you need to know](https://lightstep.com/blog/opentelemetry-nodejs)
 - [Casio F-91W cheat sheet](https://menga.net/casio-f91w-cheat-sheet)
-
+= [Choose Boring Technology](https://boringtechnology.club/)
 
 vim sum selected numbers:
 

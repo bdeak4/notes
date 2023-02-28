@@ -1,6 +1,7 @@
 # deployment
 
 - [Deploying Python web apps as AWS Lambda functions](https://til.simonwillison.net/awslambda/asgi-mangum)
+- [Simple, zero-downtime deploys with nginx and docker-compose](https://www.tines.com/blog/simple-zero-downtime-deploys-with-nginx-and-docker-compose)
 
 ## nginx
 
