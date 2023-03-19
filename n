@@ -1,0 +1,28 @@
+#!/bin/sh
+
+set -ex
+
+cd -P -- "$(dirname -- "$0")"
+
+if [ -n "$1" ]; then
+	tmpfile=$(mktemp /tmp/notes.XXXXXX.md)
+	vim $tmpfile
+	newtitle=$(head -1 $tmpfile | sed 's/^# //')
+	newfilename=$(echo "$newtitle" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z)
+	if [ -z "$newfilename" ]; then
+		echo oops
+		exit 1
+	fi
+	mkdir -p $1
+	mv $tmpfile "$1/$newfilename.md"
+	exit 0
+fi
+
+file=$(fzf)
+oldtitle=$(head -1 $file | sed 's/^# //')
+vim $file
+newtitle=$(head -1 $file | sed 's/^# //')
+if [ "$oldtitle" != "$newtitle" ]; then
+	newfilename=$(echo "$newtitle" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z)
+	mv $file "$(dirname $file)/$newfilename.md"
+fi
