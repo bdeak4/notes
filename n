@@ -14,7 +14,10 @@ if [ -n "$1" ]; then
 		exit 1
 	fi
 	mkdir -p $1
-	mv $tmpfile "$1/$newfilename.md"
+	newfile="$1/$newfilename.md"
+	mv $tmpfile $newfile
+	git add $newfile
+	git commit -m "add $newfile"
 	exit 0
 fi
 
@@ -24,5 +27,13 @@ vim $file
 newtitle=$(head -1 $file | sed 's/^# //')
 if [ "$oldtitle" != "$newtitle" ]; then
 	newfilename=$(echo "$newtitle" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z)
-	mv $file "$(dirname $file)/$newfilename.md"
+	newfile="$(dirname $file)/$newfilename.md"
+	mv $file $newfile
+	git add $file $newfile
+	git commit -m "edit $newfile"
+fi
+
+if [ -n "$(git diff --name-only -- $file)" ]; then
+	git add $file
+	git commit -m "edit $file"
 fi
