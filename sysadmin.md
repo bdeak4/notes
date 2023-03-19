@@ -269,3 +269,22 @@ vim sum selected numbers:
 ```
 !awk '{print; sum+=$1}END{print sum}'
 ```
+
+short-hand for checking for required env vars:
+```
+: "${GIT_HASH:?Environment variable empty or not defined.}"
+: "${GITHUB_RUN_ID:?Environment variable empty or not defined.}"
+: "${GITHUB_RUN_ATTEMPT:?Environment variable empty or not defined.}"
+```
+
+<https://github.com/sigstore/cosign/blob/be0e054045beb7f8d5de2019db0a7e707f56f33a/scripts/sign-images-ci.sh#L21-L23>
+
+
+
+### vim align tables
+
+```
+:!pandoc -t markdown-simple_tables+pipe_tables
+```
+
+<https://lobste.rs/s/fqgzrk/aligning_markdown_tables_helix#c_0jhhwg>
