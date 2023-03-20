@@ -4,19 +4,8 @@ set -ex
 
 cd -P -- "$(dirname -- $(realpath "$0"))"
 
-if [ -n "$1" ]; then
-	if [ "$1" = "sync" ]; then
-		git stash
-		git pull -r
-		git diff --cached origin/main
-		y=$(dd bs=1 count=1 2>/dev/null)
-		if [ $y = "y" ]; then
-			git push -u origin main
-		fi
-		git stash pop
-		exit 0
-	fi
-
+if [ "$1" = "new" ]; then
+	dir=$(find . -type d -not -wholename '*.git*' -not -name . | fzf --print-query | tail -1)
 	tmpfile=$(mktemp /tmp/notes.XXXXXX.md)
 	vim $tmpfile
 	newtitle=$(head -1 $tmpfile | sed 's/^# //')
@@ -25,11 +14,23 @@ if [ -n "$1" ]; then
 		echo oops
 		exit 1
 	fi
-	mkdir -p $1
-	newfile="$1/$newfilename.md"
+	mkdir -p $dir
+	newfile="$dir/$newfilename.md"
 	mv $tmpfile $newfile
 	git add $newfile
 	git commit -m "add $newfile"
+	exit 0
+fi
+
+if [ "$1" = "sync" ]; then
+	git stash
+	git pull -r
+	git diff --cached origin/main
+	y=$(dd bs=1 count=1 2>/dev/null)
+	if [ $y = "y" ]; then
+		git push -u origin main
+	fi
+	git stash pop
 	exit 0
 fi
 
