@@ -6,12 +6,14 @@ cd -P -- "$(dirname -- $(realpath "$0"))"
 
 if [ -n "$1" ]; then
 	if [ "$1" = "sync" ]; then
+		git stash
 		git pull -r
-		git diff --stat --cached origin/main
+		git diff --cached origin/main
 		y=$(dd bs=1 count=1 2>/dev/null)
 		if [ $y = "y" ]; then
 			git push -u origin main
 		fi
+		git stash pop
 		exit 0
 	fi
 
