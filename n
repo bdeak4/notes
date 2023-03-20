@@ -4,6 +4,30 @@ set -ex
 
 cd -P -- "$(dirname -- $(realpath "$0"))"
 
+_readme() {
+	echo "# notes"
+	echo
+	echo "My notes mostly about system administration, devops, programming and business."
+	echo
+	echo "Inspired by [simonw/til](https://github.com/simonw/til). Currently contains $(find . -name '*.md' | wc -l) pages."
+	echo
+	find . -type d -not -wholename '*.git*' -not -name . | sort | while IFS= read -r dir; do
+		echo "## $(echo $dir | sed 's/^\.\///')"
+		echo
+		find $dir -name '*.md' | while IFS= read -r file; do
+			title=$(head -1 $file | sed 's/^# //')
+			date=$(git log -1 --pretty="format:%as" $file)
+			echo "* [$title]($file) - $date"
+		done | awk '{ print $NF,$0 }' | sort -k1,1 -nr | cut -f2- -d' '
+		echo
+	done
+}
+_update_readme() {
+	_readme > README.md
+	git add README.md
+	git commit -m "update readme"
+}
+
 if [ "$1" = "new" ]; then
 	dir=$(find . -type d -not -wholename '*.git*' -not -name . | fzf --print-query | tail -1)
 	tmpfile=$(mktemp /tmp/notes.XXXXXX.md)
@@ -19,6 +43,7 @@ if [ "$1" = "new" ]; then
 	mv $tmpfile $newfile
 	git add $newfile
 	git commit -m "add $newfile"
+	_update_readme
 	exit 0
 fi
 
@@ -45,6 +70,8 @@ if [ "$oldtitle" != "$newtitle" ]; then
 	mv $file $newfile
 	git add $file $newfile
 	git commit -m "edit $newfile"
+	_update_readme
+	exit 0
 fi
 
 if [ -n "$(git diff --name-only -- $file)" ]; then
