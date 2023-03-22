@@ -59,6 +59,11 @@ if [ "$1" = "sync" ]; then
 	exit 0
 fi
 
+if [ "$1" = "web" ]; then
+	xdg-open https://github.com/bdeak4/notes
+	exit 0
+fi
+
 file=$(fzf --layout=reverse --preview "cat {}")
 oldtitle=$(head -1 $file | sed 's/^# //')
 vim $file
