@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 16 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 17 pages.
 
 ## deployment
 
@@ -23,4 +23,8 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 16 p
 ## sysadmin
 
 * [Search man pages](./sysadmin/search-man-pages.md) - 2023-03-20
+
+## web3
+
+* [Generate NFT hashlist](./web3/generate-nft-hashlist.md) - 2023-03-25
 
