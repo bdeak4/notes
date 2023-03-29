@@ -1,5 +1,5 @@
 # Search man pages
 
 ```
-man -k query
+$ man -k query
 ```
