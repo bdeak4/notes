@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 18 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 19 pages.
 
 ## deployment
 
@@ -22,6 +22,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 18 p
 ## sysadmin
 
 * [Resize all images in directory](./sysadmin/resize-all-images-in-directory.md) - 2023-03-29
+* [Count number of files in each directory](./sysadmin/count-number-of-files-in-each-directory.md) - 2023-03-29
 * [System backup cron job](./sysadmin/system-backup-cron-job.md) - 2023-03-25
 * [Search man pages](./sysadmin/search-man-pages.md) - 2023-03-20
 
