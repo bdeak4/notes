@@ -2,11 +2,15 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 25 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 26 pages.
 
 ## deployment
 
 * [Vercel static site](./deployment/vercel-static-site.md) - 2023-03-20
+
+## programming
+
+* [Undocumented web APIs](./programming/undocumented-web-apis.md) - 2023-03-31
 
 ## scripting
 
