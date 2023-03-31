@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 21 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 23 pages.
 
 ## deployment
 
@@ -31,4 +31,6 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 21 p
 
 ## web3
 
+* [Crypto market research tools](./web3/crypto-market-research-tools.md) - 2023-03-31
 * [Generate NFT hashlist](./web3/generate-nft-hashlist.md) - 2023-03-25
+
