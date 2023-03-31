@@ -21,6 +21,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 21 p
 
 ## sysadmin
 
+* [Compress PDF file](./sysadmin/compress-pdf-file.md) - 2023-03-31
 * [Split directory in chunks](./sysadmin/split-directory-in-chunks.md) - 2023-03-30
 * [Search man pages](./sysadmin/search-man-pages.md) - 2023-03-30
 * [Resize all images in directory](./sysadmin/resize-all-images-in-directory.md) - 2023-03-30
@@ -31,4 +32,3 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 21 p
 ## web3
 
 * [Generate NFT hashlist](./web3/generate-nft-hashlist.md) - 2023-03-25
-
