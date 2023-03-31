@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 26 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 27 pages.
 
 ## deployment
 
@@ -21,6 +21,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 26 p
 
 ## slicing
 
+* [Google Fonts](./slicing/google-fonts.md) - 2023-03-31
 * [Font web tools](./slicing/font-web-tools.md) - 2023-03-22
 
 ## sysadmin
