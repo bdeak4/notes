@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 23 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 24 pages.
 
 ## deployment
 
@@ -22,6 +22,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 23 p
 ## sysadmin
 
 * [Compress PDF file](./sysadmin/compress-pdf-file.md) - 2023-03-31
+* [Bash most used commands](./sysadmin/bash-most-used-commands.md) - 2023-03-31
 * [Split directory in chunks](./sysadmin/split-directory-in-chunks.md) - 2023-03-30
 * [Search man pages](./sysadmin/search-man-pages.md) - 2023-03-30
 * [Resize all images in directory](./sysadmin/resize-all-images-in-directory.md) - 2023-03-30
