@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 31 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 32 pages.
 
 ## deployment
 
@@ -14,6 +14,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 31 p
 
 ## scripting
 
+* [Find git root directory](./scripting/find-git-root-directory.md) - 2023-04-02
 * [Grep read patterns from file](./scripting/grep-read-patterns-from-file.md) - 2023-03-31
 * [Generate random string](./scripting/generate-random-string.md) - 2023-03-22
 * [Parse command line arguments](./scripting/parse-command-line-arguments.md) - 2023-03-21
