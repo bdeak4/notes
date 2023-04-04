@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 33 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 34 pages.
 
 ## deployment
 
@@ -29,6 +29,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 33 p
 
 ## sysadmin
 
+* [Compress video with ffmpeg](./sysadmin/compress-video-with-ffmpeg.md) - 2023-04-04
 * [Run sudo without password](./sysadmin/run-sudo-without-password.md) - 2023-03-31
 * [Compress PDF file](./sysadmin/compress-pdf-file.md) - 2023-03-31
 * [Bash most used programs](./sysadmin/bash-most-used-programs.md) - 2023-03-31
