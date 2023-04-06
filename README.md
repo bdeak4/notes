@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 36 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 37 pages.
 
 ## deployment
 
@@ -46,6 +46,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 36 p
 
 ## vim
 
+* [Align markdown tables](./vim/align-markdown-tables.md) - 2023-04-07
 * [Open file under cursor](./vim/open-file-under-cursor.md) - 2023-03-31
 
 ## web3
