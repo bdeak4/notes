@@ -1,4 +1,4 @@
-# Google Fonts
+# Fast loading Google Fonts
 
 short version:
 
