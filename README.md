@@ -24,7 +24,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 36 p
 
 ## slicing
 
-* [Google Fonts](./slicing/google-fonts.md) - 2023-03-31
+* [Fast loading Google Fonts](./slicing/fast-loading-google-fonts.md) - 2023-04-07
 * [Font web tools](./slicing/font-web-tools.md) - 2023-03-22
 
 ## sysadmin
