@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 33 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 39 pages.
 
 ## deployment
 
@@ -24,12 +24,18 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 33 p
 
 ## slicing
 
+* [SVG tools](./slicing/svg-tools.md) - 2023-04-08
+* [Icon packs](./slicing/icon-packs.md) - 2023-04-08
 * [Fast loading Google Fonts](./slicing/fast-loading-google-fonts.md) - 2023-04-07
 * [Font web tools](./slicing/font-web-tools.md) - 2023-03-22
 
 ## sysadmin
 
+* [Unknown server investigation](./sysadmin/unknown-server-investigation.md) - 2023-04-08
+* [Fastest way to transfer files in local network](./sysadmin/fastest-way-to-transfer-files-in-local-network.md) - 2023-04-08
+* [Docker run shell in container](./sysadmin/docker-run-shell-in-container.md) - 2023-04-08
 * [DNS tools](./sysadmin/dns-tools.md) - 2023-04-08
+* [Cron jobs](./sysadmin/cron-jobs.md) - 2023-04-08
 * [Mailing list manager](./sysadmin/mailing-list-manager.md) - 2023-04-07
 * [Convert docker run commands to docker compose](./sysadmin/convert-docker-run-commands-to-docker-compose.md) - 2023-04-07
 * [Disable PC speaker beep](./sysadmin/disable-pc-speaker-beep.md) - 2023-04-05
