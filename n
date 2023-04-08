@@ -43,13 +43,13 @@ if [ "$1" = "new" ]; then
 	mv $tmpfile $newfile
 	git add $newfile
 	git commit -m "add $newfile"
-	_update_readme
 	exit 0
 fi
 
 if [ "$1" = "sync" ]; then
 	git stash
 	git pull -r
+	_update_readme
 	git diff --cached origin/main
 	y=$(dd bs=1 count=1 2>/dev/null)
 	if [ $y = "y" ]; then
@@ -75,7 +75,6 @@ if [ "$oldtitle" != "$newtitle" ]; then
 	mv $file $newfile
 	git add $file $newfile
 	git commit -m "edit $newfile"
-	_update_readme
 	exit 0
 fi
 
