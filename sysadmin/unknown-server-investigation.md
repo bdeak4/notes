@@ -24,7 +24,7 @@ running processes:
 $ ps auxwf
 ```
 
-open ports:
+opened ports and connections:
 
 ```
 $ lsof -i -P
