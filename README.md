@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 32 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 33 pages.
 
 ## deployment
 
@@ -29,6 +29,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 32 p
 
 ## sysadmin
 
+* [DNS tools](./sysadmin/dns-tools.md) - 2023-04-08
 * [Mailing list manager](./sysadmin/mailing-list-manager.md) - 2023-04-07
 * [Convert docker run commands to docker compose](./sysadmin/convert-docker-run-commands-to-docker-compose.md) - 2023-04-07
 * [Disable PC speaker beep](./sysadmin/disable-pc-speaker-beep.md) - 2023-04-05
