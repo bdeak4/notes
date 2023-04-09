@@ -53,6 +53,10 @@ sync)
 	git push -u origin main
 	git stash pop
 	;;
+grep)
+	shift
+	grep "$@" --color -r --exclude-dir=.git .
+	;;
 web)
 	xdg-open https://github.com/bdeak4/notes
 	;;
