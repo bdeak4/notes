@@ -1,7 +1,6 @@
 #!/bin/sh
 
 set -ex
-
 cd -P -- "$(dirname -- "$(realpath -- "$0")")"
 
 _readme() {
@@ -22,13 +21,9 @@ _readme() {
 		echo
 	done
 }
-_update_readme() {
-	_readme > README.md
-	git add README.md
-	git commit -m "update readme"
-}
 
-if [ "$1" = "new" ]; then
+case "$1" in
+new)
 	dir=$(find . -type d -not -wholename '*.git*' -not -name . | fzf --print-query | tail -1)
 	tmpfile=$(mktemp /tmp/notes.XXXXXX.md)
 	vim $tmpfile
@@ -43,42 +38,34 @@ if [ "$1" = "new" ]; then
 	mv $tmpfile $newfile
 	git add $newfile
 	git commit -m "add $newfile"
-	exit 0
-fi
-
-if [ "$1" = "sync" ]; then
+	;;
+sync)
 	git stash
 	git pull -r
-	_update_readme
+	_readme > README.md
+	git add README.md
+	git commit -m "update readme"
 	git diff --cached origin/main
-	y=$(dd bs=1 count=1 2>/dev/null)
-	if [ $y = "y" ]; then
-		git push -u origin main
-	fi
+	git push -u origin main
 	git stash pop
-	exit 0
-fi
-
-if [ "$1" = "web" ]; then
+	;;
+web)
 	xdg-open https://github.com/bdeak4/notes
-	exit 0
-fi
-
-file=$(fzf --layout=reverse --preview "cat {}")
-oldtitle=$(head -1 $file | sed 's/^# //')
-vim $file
-newtitle=$(head -1 $file | sed 's/^# //')
-
-if [ "$oldtitle" != "$newtitle" ]; then
-	newfilename=$(echo "$newtitle" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z)
-	newfile="$(dirname $file)/$newfilename.md"
-	mv $file $newfile
-	git add $file $newfile
-	git commit -m "edit $newfile"
-	exit 0
-fi
-
-if [ -n "$(git diff --name-only -- $file)" ]; then
-	git add $file
-	git commit -m "edit $file"
-fi
+	;;
+*)
+	file=$(fzf --layout=reverse --preview "cat {}")
+	oldtitle=$(head -1 $file | sed 's/^# //')
+	vim $file
+	newtitle=$(head -1 $file | sed 's/^# //')
+	if [ "$oldtitle" != "$newtitle" ]; then
+		newfilename=$(echo "$newtitle" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z)
+		newfile="$(dirname $file)/$newfilename.md"
+		mv $file $newfile
+		git add $file $newfile
+		git commit -m "edit $newfile"
+	fi
+	if [ -n "$(git diff --name-only -- $file)" ]; then
+		git add $file
+		git commit -m "edit $file"
+	fi
+esac
