@@ -22,13 +22,17 @@ _readme() {
 	done
 }
 
+_slugify() {
+    echo "$1" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z
+}
+
 case "$1" in
 new)
 	dir=$(find . -type d -not -wholename '*.git*' -not -name . | fzf --print-query | tail -1)
 	tmpfile=$(mktemp /tmp/notes.XXXXXX.md)
 	vim $tmpfile
 	newtitle=$(head -1 $tmpfile | sed 's/^# //')
-	newfilename=$(echo "$newtitle" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z)
+	newfilename=$(_slugify "$newtitle")
 	if [ -z "$newfilename" ]; then
 		echo oops
 		exit 1
@@ -58,7 +62,7 @@ web)
 	vim $file
 	newtitle=$(head -1 $file | sed 's/^# //')
 	if [ "$oldtitle" != "$newtitle" ]; then
-		newfilename=$(echo "$newtitle" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z)
+		newfilename=$(_slugify "$newtitle")
 		newfile="$(dirname $file)/$newfilename.md"
 		mv $file $newfile
 		git add $file $newfile
