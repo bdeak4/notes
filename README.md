@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 40 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 43 pages.
 
 ## deployment
 
@@ -26,6 +26,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 40 p
 ## slicing
 
 * [Map images](./slicing/map-images.md) - 2023-04-09
+* [Keep footer at the bottom](./slicing/keep-footer-at-the-bottom.md) - 2023-04-09
 * [SVG tools](./slicing/svg-tools.md) - 2023-04-08
 * [Icon packs](./slicing/icon-packs.md) - 2023-04-08
 * [Fast loading Google Fonts](./slicing/fast-loading-google-fonts.md) - 2023-04-07
@@ -56,6 +57,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 40 p
 
 ## vim
 
+* [Sum selected numbers](./vim/sum-selected-numbers.md) - 2023-04-09
 * [Align markdown tables](./vim/align-markdown-tables.md) - 2023-04-07
 * [Open file under cursor](./vim/open-file-under-cursor.md) - 2023-03-31
 
