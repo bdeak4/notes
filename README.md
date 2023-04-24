@@ -6,6 +6,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 40 p
 
 ## deployment
 
+* [Load balancing](./deployment/load-balancing.md) - 2023-04-24
 * [Vercel static site](./deployment/vercel-static-site.md) - 2023-03-20
 
 ## programming
