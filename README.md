@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 43 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 44 pages.
 
 ## deployment
 
@@ -34,6 +34,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 43 p
 
 ## sysadmin
 
+* [Kill process running on port](./sysadmin/kill-process-running-on-port.md) - 2023-05-01
 * [Unknown server investigation](./sysadmin/unknown-server-investigation.md) - 2023-04-08
 * [Fastest way to transfer files in local network](./sysadmin/fastest-way-to-transfer-files-in-local-network.md) - 2023-04-08
 * [Docker run shell in container](./sysadmin/docker-run-shell-in-container.md) - 2023-04-08
