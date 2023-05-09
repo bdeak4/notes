@@ -2,12 +2,16 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 44 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 45 pages.
 
 ## deployment
 
 * [Load balancing](./deployment/load-balancing.md) - 2023-04-24
 * [Vercel static site](./deployment/vercel-static-site.md) - 2023-03-20
+
+## monitoring
+
+* [Grafana dashboards](./monitoring/grafana-dashboards.md) - 2023-05-06
 
 ## programming
 
