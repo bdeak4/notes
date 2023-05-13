@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 45 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 46 pages.
 
 ## deployment
 
@@ -13,8 +13,12 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 45 p
 
 * [Grafana dashboards](./monitoring/grafana-dashboards.md) - 2023-05-06
 
+## productivity
+
+
 ## programming
 
+* [Meta](./programming/meta.md) - 2023-05-13
 * [Undocumented web APIs](./programming/undocumented-web-apis.md) - 2023-03-31
 
 ## scripting
