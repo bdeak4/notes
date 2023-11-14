@@ -2,7 +2,11 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 46 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 50 pages.
+
+## css
+
+* [CSS Hacks](./css/css-hacks.md) - 2023-11-14
 
 ## deployment
 
@@ -18,6 +22,8 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 46 p
 
 ## programming
 
+* [Websockets](./programming/websockets.md) - 2023-05-13
+* [Webhooks](./programming/webhooks.md) - 2023-05-13
 * [Meta](./programming/meta.md) - 2023-05-13
 * [Undocumented web APIs](./programming/undocumented-web-apis.md) - 2023-03-31
 
@@ -33,6 +39,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 46 p
 
 ## slicing
 
+* [Loading indicator](./slicing/loading-indicator.md) - 2023-04-10
 * [Map images](./slicing/map-images.md) - 2023-04-09
 * [Keep footer at the bottom](./slicing/keep-footer-at-the-bottom.md) - 2023-04-09
 * [SVG tools](./slicing/svg-tools.md) - 2023-04-08
