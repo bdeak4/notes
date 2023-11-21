@@ -17,9 +17,6 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 52 p
 
 * [Grafana dashboards](./monitoring/grafana-dashboards.md) - 2023-05-06
 
-## productivity
-
-
 ## programming
 
 * [Websockets](./programming/websockets.md) - 2023-05-13
