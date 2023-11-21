@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 50 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 52 pages.
 
 ## css
 
@@ -17,6 +17,9 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 50 p
 
 * [Grafana dashboards](./monitoring/grafana-dashboards.md) - 2023-05-06
 
+## productivity
+
+
 ## programming
 
 * [Websockets](./programming/websockets.md) - 2023-05-13
@@ -26,6 +29,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 50 p
 
 ## scripting
 
+* [Download album from YouTube Music](./scripting/download-album-from-youtube-music.md) - 2023-11-14
 * [Find git root directory](./scripting/find-git-root-directory.md) - 2023-04-02
 * [Find git remote url](./scripting/find-git-remote-url.md) - 2023-04-02
 * [Grep read patterns from file](./scripting/grep-read-patterns-from-file.md) - 2023-03-31
@@ -46,6 +50,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 50 p
 
 ## sysadmin
 
+* [Compress video with ffmpeg](./sysadmin/compress-video-with-ffmpeg.md) - 2023-11-21
 * [Kill process running on port](./sysadmin/kill-process-running-on-port.md) - 2023-11-14
 * [Unknown server investigation](./sysadmin/unknown-server-investigation.md) - 2023-04-08
 * [Fastest way to transfer files in local network](./sysadmin/fastest-way-to-transfer-files-in-local-network.md) - 2023-04-08
@@ -55,7 +60,6 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 50 p
 * [Mailing list manager](./sysadmin/mailing-list-manager.md) - 2023-04-07
 * [Convert docker run commands to docker compose](./sysadmin/convert-docker-run-commands-to-docker-compose.md) - 2023-04-07
 * [Disable PC speaker beep](./sysadmin/disable-pc-speaker-beep.md) - 2023-04-05
-* [Compress video with ffmpeg](./sysadmin/compress-video-with-ffmpeg.md) - 2023-04-04
 * [Run sudo without password](./sysadmin/run-sudo-without-password.md) - 2023-03-31
 * [Compress PDF file](./sysadmin/compress-pdf-file.md) - 2023-03-31
 * [Bash most used programs](./sysadmin/bash-most-used-programs.md) - 2023-03-31
@@ -73,6 +77,10 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 50 p
 * [Sum selected numbers](./vim/sum-selected-numbers.md) - 2023-04-09
 * [Align markdown tables](./vim/align-markdown-tables.md) - 2023-04-07
 * [Open file under cursor](./vim/open-file-under-cursor.md) - 2023-03-31
+
+## vscode
+
+* [Add cursor to every line with selection](./vscode/add-cursor-to-every-line-with-selection.md) - 2023-11-14
 
 ## web3
 
