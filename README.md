@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 52 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 53 pages.
 
 ## css
 
@@ -47,6 +47,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 52 p
 
 ## sysadmin
 
+* [Speed up video with ffmpeg](./sysadmin/speed-up-video-with-ffmpeg.md) - 2023-11-22
 * [Compress video with ffmpeg](./sysadmin/compress-video-with-ffmpeg.md) - 2023-11-21
 * [Kill process running on port](./sysadmin/kill-process-running-on-port.md) - 2023-11-14
 * [Unknown server investigation](./sysadmin/unknown-server-investigation.md) - 2023-04-08
