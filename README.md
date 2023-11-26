@@ -2,7 +2,7 @@
 
 My notes mostly about system administration, devops, programming and business.
 
-Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 53 pages.
+Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 54 pages.
 
 ## css
 
@@ -26,6 +26,7 @@ Inspired by [simonw/til](https://github.com/simonw/til). Currently contains 53 p
 
 ## scripting
 
+* [Convert HEIC images to JPEG](./scripting/convert-heic-images-to-jpeg.md) - 2023-11-26
 * [Download album from YouTube Music](./scripting/download-album-from-youtube-music.md) - 2023-11-14
 * [Find git root directory](./scripting/find-git-root-directory.md) - 2023-04-02
 * [Find git remote url](./scripting/find-git-remote-url.md) - 2023-04-02
